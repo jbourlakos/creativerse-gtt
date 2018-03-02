@@ -1,4 +1,4 @@
-# Group Therapy Land Teleportation codes
+# Group Therapy Land: Teleportation codes
 
 ## Global Compass Points (Grass)
 
@@ -14,6 +14,7 @@ West: Dirt, Grass, Dirt
 East: Dirt, Dirt, Grass
 South: Dirt, Dirt, Dirt
 
-## Teleportation Station
+## Teleportation Station & Buildings
 
-Go to: Stone, Stone, Stone
+Zakarum Fjord Keep: Stone, Stone, Stone
+Earendil's Arena: Iron Ore, Obsidian Ore, Gunpowder
