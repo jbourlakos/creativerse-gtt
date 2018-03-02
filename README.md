@@ -6,4 +6,4 @@ A Creativerse world.
 
 ## Explored Map
 
-![Map](Explored Map - 2018-03-02 06_23_16.png)
+![ScreenShot](Explored Map - 2018-03-02 06_23_16.png)
