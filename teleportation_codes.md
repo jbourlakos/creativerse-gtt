@@ -18,3 +18,9 @@ South: Dirt, Dirt, Dirt
 
 Zakarum Fjord Keep: Stone, Stone, Stone
 Earendil's Arena: Iron Ore, Obsidian Ore, Gunpowder
+
+## Per building
+
+### Zakarum Fjord Keep
+
+Keep's roof: Stone, Stone, Medieval Brick Wall
