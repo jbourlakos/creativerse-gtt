@@ -26,8 +26,16 @@ Zakarum Fjord Keep: Stone, Stone, Stone
 
 Earendil's Arena: Iron Ore, Obsidian Ore, Gunpowder
 
+Five-wood Station: Wildwood, Weepwood, Shorewood
+
 ## Per building
 
 ### Zakarum Fjord Keep
 
 Keep's roof: Stone, Stone, Medieval Brick Wall
+
+Keep's Pool Jump: 
+
+### Lokahiou's Fun Park
+
+High column: Sand, Sand, Grass
