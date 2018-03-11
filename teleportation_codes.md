@@ -1,45 +1,83 @@
 # Group Therapy Land: Teleportation codes
 
-## Global Compass Points (Grass)
+## Catalogue
 
-North: Grass, Grass, Grass
+### Global Compass Points
 
-West: Grass, Grass, Dirt
+**North**: `Teleporter`, `Teleporter`, `Snow`
 
-East: Grass, Dirt, Grass
+Inactive:
 
-South: Grass, Dirt, Dirt
+ - ~**West**: `Teleporter`, `Teleporter`, `Canyonstone`~
 
-## Continental Compass Points (Dirt)
+ - ~**East**: `Teleporter`, `Teleporter`, `Dentritus`~
 
-North: Dirt, Grass, Grass
+ - ~**South**: `Teleporter`, `Teleporter`, `Sand`~
 
-West: Dirt, Grass, Dirt
 
-East: Dirt, Dirt, Grass
+### Continental Compass Points
 
-South: Dirt, Dirt, Dirt
+**West**: `Teleporter`, `Wood Ladder`, `Canyonstone`
 
-## Biomes
+**East**: `Teleporter`, `Wood Ladder`, `Dentritus`
 
-Whiterock Mountains: Snow, Snow, Rambeau Tuft
+**South**: `Teleporter`, `Wood Ladder`, `Sand`
 
-## Teleportation Station & Buildings
+Inactive:
 
-Zakarum Fjord Keep: Stone, Stone, Stone
+ - ~**North**: `Teleporter`, `Wood Ladder`, `Snow`~
 
-Earendil's Arena: Iron Ore, Obsidian Ore, Gunpowder
+ 
 
-Five-wood Station: Wildwood, Weepwood, Shorewood
+### Named Biomes
 
-## Per building
+**Whiterock Mountains**: `Snow`, `Snow`, `Rambeau Tuft`
 
-### Zakarum Fjord Keep
+**Five-wood Station**: `Wildwood`, `Weepwood`, `Shorewood`
 
-Keep's roof: Stone, Stone, Medieval Brick Wall
 
-Keep's Pool Jump: 
+### Buildings
 
-### Lokahiou's Fun Park
+**Zakarum Fjord Keep**: `Stone`, `Stone`, `Stone`
 
-High column: Sand, Sand, Grass
+**Earendil's Arena**: `Iron Ore`, `Obsidian Ore`, `Gunpowder`
+
+
+
+
+### Per building
+
+#### Zakarum Fjord Keep
+
+**Keep's roof**: `Stone`, `Stone`, `Medieval Brick Wall`
+
+**Keep's Pool Jump**: *TBD*
+
+#### Lokahiou's Fun Park
+
+High column: `Sand`, `Sand`, `Grass`
+
+
+
+## Teleportation coding directives
+
+### Directional Prefices
+
+**Global**: `Teleporter`, `Teleporter`
+
+**Continental**: `Teleporter`, `Wood Ladder`
+
+### Directional Suffices
+
+**North**: `Snow`
+
+**West**: `Canyonstone`
+
+**East**: `Dentritus`
+
+**South**: `Sand`
+
+### Environmental Prefices
+
+**Snow Mountain**: `Snow`, `Snow`
+
