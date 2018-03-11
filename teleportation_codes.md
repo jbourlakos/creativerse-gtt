@@ -4,6 +4,8 @@
 
 ### Global Compass Points
 
+**Center**: `Teleporter`, `Teleporter`, `Teleporter`
+
 **North**: `Teleporter`, `Teleporter`, `Snow`
 
 Inactive:
