@@ -44,6 +44,7 @@ Inactive:
 
 **Earendil's Arena**: `Iron Ore`, `Obsidian Ore`, `Gunpowder`
 
+**Lokahiou's Water Park**: `Ice`, `Water`, `Grass`
 
 
 
