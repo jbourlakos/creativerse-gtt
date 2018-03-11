@@ -20,6 +20,10 @@ East: Dirt, Dirt, Grass
 
 South: Dirt, Dirt, Dirt
 
+## Biomes
+
+Whiterock Mountains: Snow, Snow, Rambeau Tuft
+
 ## Teleportation Station & Buildings
 
 Zakarum Fjord Keep: Stone, Stone, Stone
