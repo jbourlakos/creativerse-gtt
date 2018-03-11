@@ -1,18 +1,13 @@
-# Group Therapy Land: Circuits
+# Automatic Periodic Turn-off
 
-## Activatable Periodic Auto-turn-off 
-
-### Purpose
+## Purpose
 
 This circuit automatically emits an `OFF` signal every `4` (`2`+`2`) seconds.
 
-### Layout
+## Layout
 
 ```
-INPUT                                           
-    |                                           
-    v                                           
-Switch ---> Logic Gate[AND] --> Delay Gate[2]   
+[INPUT] --> Logic Gate[AND] --> Delay Gate[2]   
     |            ^                     |        
     -------------|-------------------  |        
                  |                  |  |        
@@ -20,18 +15,18 @@ Switch ---> Logic Gate[AND] --> Delay Gate[2]
             Delay Gate[2] <---- Logic Gate[NAND]
                  |                              
                  v                              
-Inverter <-- Logic Gate[OR] <--- "true"          
+Inverter <- Logic Gate[OR] <--- "true"          
     |                                           
-    v
-OUTPUT
+    v                                           
+[OUTPUT]
 ```
 
-### Parameterisation
+## Tinkering
 
-*Activation*: if the `Switch` is `OFF` then the circuit doesn't do anything.
+*Activation*: if the `INPUT` is `OFF` then the circuit doesn't do anything; a `Switch` can be added on `INPUT` to handle the circuit.
 
 *Period*: can be adjusted by setting the timer in `Delay Gate`s properly.
 
-### Use cases
+## Use cases
 
-Doors can be automatically closed using this circuitry.
+ - Doors can be automatically closed using this circuitry.
