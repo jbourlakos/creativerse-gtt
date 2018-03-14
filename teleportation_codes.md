@@ -1,6 +1,22 @@
 # Group Therapy Land: Teleportation codes
 
-## Catalogue
+
+## Closed Teleportation Path
+
+**Null Teleporter Code**: `Coral`, `Teleporter`, `Teleporter`
+
+**Null Teleporter Destination**: `Teleporter`, `Teleporter`, `Coral`
+
+
+## Unidirectional Catalogue
+
+**Zakarum Keep Lab**: `Miru Eye`, *`Empty`*, `Bedrock`
+
+**Farm Lab**:  `Bedrock`, *`Empty`*, `Miru Eye`
+
+
+## Bidirectional Catalogue
+
 
 ### Global Compass Points
 
@@ -53,6 +69,8 @@ Inactive:
 #### Zakarum Fjord Keep
 
 **Keep's roof**: `Stone`, `Stone`, `Medieval Brick Wall`
+
+**Keep's Farm Lab**: `Bedrock`, `Block Phaser`, `Miru Eye`
 
 **Keep's Pool Jump**: *TBD*
 
