@@ -9,6 +9,7 @@
  - 1 x Lumite Armguards
  - 1 x Lumite Breastplate
  - 1 x Lumite Pauldron
+ - 1 x Lumite Leggings
 
 ## Requirements
 
