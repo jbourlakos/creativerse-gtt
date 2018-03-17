@@ -1,104 +1,129 @@
-# Group Therapy Land: Teleportation codes
+# Group Therapy Land
+
+# Creativerse Teleportation Codes
+
+## Introduction
+
+Learn about `Teleporter`s in [Creativerse Wikia][creativerse-wikia].
+
+## Reserved codes
+
+Codes that contain `Teleporter` or *empty* slots SHOULD NOT be generally used 
+and they are considered reserved.
+
+### Closed Teleportation Terminals
+
+#### Null Teleporter Code
+
+`*Empty*`, `Stone`, `*Empty*`
+
+A teleporter with this code is used only for departures. This code SHOULD NOT be used as teleporter destination.
+
+#### Null Teleporter Destination
+
+`Stone`, `*Empty*`, `Stone`
+
+A teleporter with this destination is used only for arrivals. This code SHOULD NOT be used as teleporter code.
 
 
-## Closed Teleportation Path
+## The Central Teleportation Station (CTS)
 
-**Null Teleporter Code**: `Coral`, `Teleporter`, `Teleporter`
+|      | Slot 1       | Slot 2  | Slot 3           |
+| :--  | :--          | :--     | :--              |
+| Code | `Teleporter` | `Stone` | `Teleporter`     |
 
-**Null Teleporter Destination**: `Teleporter`, `Teleporter`, `Coral`
+There is a central teleportation station (CTS) that may host teleporters to various 
+destinations such as global access points, named biomes etc.
 
+Access to the teleportation station is free. If you want to access the station, 
+create a teleporter (plus two more, as required by the code) at the site of your 
+preference and add the aforementioned code as destination.
 
-## Unidirectional Catalogue
+## Destinations Catalogue
 
-**Zakarum Keep Lab**: `Miru Eye`, *`Empty`*, `Bedrock`
+### Sites
 
-**Farm Lab**:  `Bedrock`, *`Empty`*, `Miru Eye`
+| Location               | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
+| :--                    | :--          | :--               | :--              | :--          |
+| Earendil's Arena       | `Iron Ore`   | `Obsidian Ore`    | `Gunpowder`      | Yes          |
+| Lab Farm (Surface)     | `Wood Fence` | `Shredded Leaves` | `Wheat`          | No           |
+| Lab Farm (Underground) | `Wood Fence` | `Bedrock`         | `Limestone Wall` | No           |
+| Lokahiou's Water Park  | `Ice`        | `Water`           | `Grass`          | Yes          |
+| Zakarum Fjord Keep     | `Stone`      | `Stone`           | `Stone`          | Yes          |
+| Zakarum Keep Lab       | `Miru Eye`   | *Empty*           | `Bedrock`        | No           |
 
-
-## Bidirectional Catalogue
-
-
-### Global Compass Points
-
-**Center**: `Teleporter`, `Teleporter`, `Teleporter`
-
-**North**: `Teleporter`, `Teleporter`, `Snow`
-
-Inactive:
-
- - ~**West**: `Teleporter`, `Teleporter`, `Canyonstone`~
-
- - ~**East**: `Teleporter`, `Teleporter`, `Dentritus`~
-
- - ~**South**: `Teleporter`, `Teleporter`, `Sand`~
-
-
-### Continental Compass Points
-
-**West**: `Teleporter`, `Wood Ladder`, `Canyonstone`
-
-**East**: `Teleporter`, `Wood Ladder`, `Dentritus`
-
-**South**: `Teleporter`, `Wood Ladder`, `Sand`
-
-Inactive:
-
- - ~**North**: `Teleporter`, `Wood Ladder`, `Snow`~
-
- 
 
 ### Named Biomes
 
-**Whiterock Mountains**: `Snow`, `Snow`, `Rambeau Tuft`
+| Location               | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
+| :--                    | :--          | :--               | :--              | :--          |
+| Whiterock Mountains    | `Snow`       | `Snow`            | `Rambeau Tuft`   | Yes          |
+| Five-wood Station      | `Wildwood`   | `Weepwood`        | `Shorewood`      | Yes          |
 
-**Five-wood Station**: `Wildwood`, `Weepwood`, `Shorewood`
+### Global Teleportation System
 
+#### Global Compass Points
 
-### Buildings
+| Location                | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
+| :--                     | :--          | :--               | :--              | :--          |
+| Global Center           | `Teleporter` | `Teleporter`      | `Teleporter`     | Yes          |
+| Global North            | `Teleporter` | `Teleporter`      | `Snow`           | Yes          |
+| Global West *Inactive*  | `Teleporter` | `Teleporter`      | `Canyonstone`    | No           |
+| Global East *Inactive*  | `Teleporter` | `Teleporter`      | `Dentritus`      | No           |
+| Global South *Inactive* | `Teleporter` | `Teleporter`      | `Dentritus`      | No           |
 
-**Zakarum Fjord Keep**: `Stone`, `Stone`, `Stone`
+#### Continental Compass Points
 
-**Earendil's Arena**: `Iron Ore`, `Obsidian Ore`, `Gunpowder`
-
-**Lokahiou's Water Park**: `Ice`, `Water`, `Grass`
-
-
-
-### Per building
-
-#### Zakarum Fjord Keep
-
-**Keep's roof**: `Stone`, `Stone`, `Medieval Brick Wall`
-
-**Keep's Farm Lab**: `Bedrock`, `Block Phaser`, `Miru Eye`
-
-**Keep's Pool Jump**: *TBD*
-
-#### Lokahiou's Fun Park
-
-High column: `Sand`, `Sand`, `Grass`
+| Location                   | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
+| :--                        | :--          | :--               | :--              | :--          |
+| Continent West             | `Teleporter` | `Wood Ladder`     | `Canyonstone`    | Yes          |
+| Continent East             | `Teleporter` | `Wood Ladder`     | `Dentritus`      | Yes          |
+| Continent South            | `Teleporter` | `Wood Ladder`     | `Sand`           | Yes          |
+| Continent North *Inactive* | `Teleporter` | `Wood Ladder`     | `Snow`           | No           |
 
 
+## Per site
 
-## Teleportation coding directives
+### Zakarum Fjord Keep
+
+| Location                   | Slot 1       | Slot 2            | Slot 3                | CTS Terminal | Bidirectional |
+| :--                        | :--          | :--               | :--                   | :--          | :--           |
+| Keep's roof                | `Stone`      | `Stone`           | `Medieval Brick Wall` | No           | Yes           |
+| Keep's Lab farm            | `Bedrock`    | *Empty*           | `Miru Eye`            | No           | Yes           |
+| Keep's Pool Jump           | `Stone`      | `Stone`           | `Water`               | No           | No            |
+
+### Lokahiou's Fun Park
+
+| Location                   | Slot 1       | Slot 2            | Slot 3                | CTS Terminal | Bidirectional |
+| :--                        | :--          | :--               | :--                   | :--          | :--           |
+| High column                | `Sand`       | `Sand`            | `Grass`               | No           | Yes           |
+
+
+## Teleportation coding conventions
 
 ### Directional Prefices
 
-**Global**: `Teleporter`, `Teleporter`
-
-**Continental**: `Teleporter`, `Wood Ladder`
+| Location                   | Slot 1       | Slot 2            | Slot 3                |
+| :--                        | :--          | :--               | :--                   |
+| Global                     | `Teleporter` | `Teleporter`      | *any*                 |
+| Continental                | `Teleporter` | `Wood Ladder`     | *any*                 |
 
 ### Directional Suffices
 
-**North**: `Snow`
+| Location                   | Slot 1       | Slot 2            | Slot 3                |
+| :--                        | :--          | :--               | :--                   |
+| North                      | *any*        | *any*             | `Snow`                |
+| West                       | *any*        | *any*             | `Canyonstone`         |
+| East                       | *any*        | *any*             | `Dentritus`           |
+| South                      | *any*        | *any*             | `Sand`                |
 
-**West**: `Canyonstone`
+### Biome Prefices
 
-**East**: `Dentritus`
+| Location                   | Slot 1       | Slot 2            | Slot 3                |
+| :--                        | :--          | :--               | :--                   |
+| Snow Mountain              | `Snow`       | `Snow`            | *any*                 |
 
-**South**: `Sand`
 
-### Environmental Prefices
 
-**Snow Mountain**: `Snow`, `Snow`
 
+ [creativerse-wikia]: http://creativerse.wikia.com/wiki/Teleporter
