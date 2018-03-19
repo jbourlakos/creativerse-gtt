@@ -2,23 +2,32 @@
 
 ## Purpose
 
-This circuit automatically emits an `OFF` signal every `4` (`2`+`2`) seconds.
+This circuit automatically emits an `OFF` signal every `X` (`X/2`+`X/2`) seconds.
+
+## Components
+
+ - Mandatory
+   - `Logic Gate` x 3
+   - `Delay Gate` x 2
+   - `Inverter` x 1
+ - Optional
+   - `Switch` x 1 (as `INPUT`)
 
 ## Layout
 
 ```
-[INPUT] --> Logic Gate[AND] --> Delay Gate[2]   
+[INPUT] --> Logic Gate[AND] --> Delay Gate[X/2] 
     |            ^                     |        
     -------------|-------------------  |        
                  |                  |  |        
                  |                  v  v        
-            Delay Gate[2] <---- Logic Gate[NAND]
+          Delay Gate[X/2] <---- Logic Gate[NAND]
                  |                              
                  v                              
 Inverter <- Logic Gate[OR] <--- "true"          
     |                                           
     v                                           
-[OUTPUT]
+[OUTPUT]                                        
 ```
 
 ## Tinkering
