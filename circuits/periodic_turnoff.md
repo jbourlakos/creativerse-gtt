@@ -1,4 +1,4 @@
-# Automatic Periodic Turn-off
+# Periodic Turn-off
 
 ## Purpose
 
@@ -38,4 +38,4 @@ Inverter <- Logic Gate[OR] <--- "true"
 
 ## Use cases
 
- - Doors can be automatically closed using this circuitry.
+ - Doors can be automatically closed after being opened using this circuit.
