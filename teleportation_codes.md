@@ -44,13 +44,14 @@ preference and add the aforementioned code as destination.
 ### Sites
 
 | Location               | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
-| :--                    | :--          | :--               | :--              | :--          |
-| Earendil's Arena       | `Iron Ore`   | `Obsidian Ore`    | `Gunpowder`      | Yes          |
-| Lab Farm (Surface)     | `Wood Fence` | `Shredded Leaves` | `Wheat`          | No           |
-| Lab Farm (Underground) | `Wood Fence` | `Bedrock`         | `Limestone Wall` | No           |
-| Lokahiou's Water Park  | `Ice`        | `Water`           | `Grass`          | Yes          |
-| Zakarum Fjord Keep     | `Stone`      | `Stone`           | `Stone`          | Yes          |
-| Zakarum Keep Lab       | `Miru Eye`   | *Empty*           | `Bedrock`        | No           |
+| :--                    | :--              | :--               | :--              | :--          |
+| Earendil's Arena       | `Iron Ore`       | `Obsidian Ore`    | `Gunpowder`      | Yes          |
+| Lab Farm (Surface)     | `Wood Fence`     | `Shredded Leaves` | `Wheat`          | No           |
+| Lab Farm (Underground) | `Wood Fence`     | `Bedrock`         | `Limestone Wall` | No           |
+| Lokahiou's Water Park  | `Ice`            | `Water`           | `Grass`          | Yes          |
+| Sky Temple             | `Dustdevil Dust` | `Bone`            | `Dustdevil Dust` | Yes          |
+| Zakarum Fjord Keep     | `Stone`          | `Stone`           | `Stone`          | Yes          |
+| Zakarum Keep Lab       | `Miru Eye`       | *Empty*           | `Bedrock`        | No           |
 
 
 ### Named Biomes
