@@ -43,13 +43,13 @@ preference and add the aforementioned code as destination.
 
 ### Sites
 
-| Location               | Slot 1       | Slot 2            | Slot 3           | CTS Terminal |
+| Location               | Slot 1       | Slot 2            | Slot 3               | CTS Terminal |
 | :--                    | :--              | :--               | :--              | :--          |
 | Earendil's Arena       | `Iron Ore`       | `Obsidian Ore`    | `Gunpowder`      | Yes          |
 | Lab Farm (Surface)     | `Wood Fence`     | `Shredded Leaves` | `Wheat`          | No           |
 | Lab Farm (Underground) | `Wood Fence`     | `Bedrock`         | `Limestone Wall` | No           |
 | Lokahiou's Water Park  | `Ice`            | `Water`           | `Grass`          | Yes          |
-| Sky Temple             | `Dustdevil Dust` | `Bone`            | `Dustdevil Dust` | Yes          |
+| Sky Temple (CTS)       | `Teleporter`     | `Stone`           | `Teleporter`     | -            |
 | Zakarum Fjord Keep     | `Stone`          | `Stone`           | `Stone`          | Yes          |
 | Zakarum Keep Lab       | `Miru Eye`       | *Empty*           | `Bedrock`        | No           |
 
@@ -70,8 +70,8 @@ preference and add the aforementioned code as destination.
 | Global Center           | `Teleporter` | `Teleporter`      | `Teleporter`     | Yes          |
 | Global North            | `Teleporter` | `Teleporter`      | `Snow`           | Yes          |
 | Global West *Inactive*  | `Teleporter` | `Teleporter`      | `Canyonstone`    | No           |
-| Global East *Inactive*  | `Teleporter` | `Teleporter`      | `Dentritus`      | No           |
-| Global South *Inactive* | `Teleporter` | `Teleporter`      | `Dentritus`      | No           |
+| Global East *Inactive*  | `Teleporter` | `Teleporter`      | `Detritus`      | No           |
+| Global South *Inactive* | `Teleporter` | `Teleporter`      | `Detritus`      | No           |
 
 #### Continental Compass Points
 
