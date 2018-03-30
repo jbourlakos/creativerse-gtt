@@ -69,9 +69,9 @@ preference and add the aforementioned code as destination.
 | :--                     | :--          | :--               | :--              | :--          |
 | Global Center           | `Teleporter` | `Teleporter`      | `Teleporter`     | Yes          |
 | Global North            | `Teleporter` | `Teleporter`      | `Snow`           | Yes          |
-| Global West *Inactive*  | `Teleporter` | `Teleporter`      | `Canyonstone`    | No           |
-| Global East *Inactive*  | `Teleporter` | `Teleporter`      | `Detritus`       | No           |
-| Global South *Inactive* | `Teleporter` | `Teleporter`      | `Detritus`       | No           |
+| Global West             | `Teleporter` | `Teleporter`      | `Canyonstone`    | Yes          |
+| Global East             | `Teleporter` | `Teleporter`      | `Detritus`       | Yes          |
+| Global South *Inactive* | `Teleporter` | `Teleporter`      | `Sand`           | No           |
 
 #### Continental Compass Points
 
