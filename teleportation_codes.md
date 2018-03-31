@@ -60,6 +60,7 @@ preference and add the aforementioned code as destination.
 | :--                    | :--          | :--               | :--              | :--          |
 | Whiterock Mountains    | `Snow`       | `Snow`            | `Rambeau Tuft`   | Yes          |
 | Five-wood Station      | `Wildwood`   | `Weepwood`        | `Shorewood`      | Yes          |
+| Apophis Desert         | `Sand`       | `Sand`            | `Cactus Flower`  | Yes          |
 
 ### Global Teleportation System
 
@@ -123,7 +124,7 @@ preference and add the aforementioned code as destination.
 | Location                   | Slot 1       | Slot 2            | Slot 3                |
 | :--                        | :--          | :--               | :--                   |
 | Snow Mountain              | `Snow`       | `Snow`            | *any*                 |
-
+| Dunes                      | `Sand`       | `Sand`            | *any*                 |
 
 
 
