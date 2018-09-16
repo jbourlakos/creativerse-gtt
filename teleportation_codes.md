@@ -52,7 +52,8 @@ preference and add the aforementioned code as destination.
 | Sky Temple (CTS)       | `Teleporter`     | `Stone`           | `Teleporter`     | -            |
 | Zakarum Fjord Keep     | `Stone`          | `Stone`           | `Stone`          | Yes          |
 | Zakarum Keep Lab       | `Miru Eye`       | *Empty*           | `Bedrock`        | No           |
-
+| Project: "Moria"       | `Stone`          | `Bedrock`         | `Hardened Lava`  | No           |
+| Project: "Sphere"      | `Galactic Hull`  | `Galactic Hull`   | `Galactic Hull`  | No           |
 
 ### Named Biomes
 
